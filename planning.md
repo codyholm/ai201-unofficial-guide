@@ -1,50 +1,45 @@
 # Project 1 Planning: The Unofficial Guide
 
-> Write this document before you write any pipeline code.
-> Your spec and architecture diagram are what you'll use to direct AI tools (Claude, Copilot, etc.) to generate your implementation — the more specific they are, the more useful the generated code will be.
-> Update the Retrieval Approach and Chunking Strategy sections if you change your approach during implementation.
-> Update this file before starting any stretch features.
-
----
-
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+This unofficial guide covers student reviews, experiences, and recommendations for Introduction to Graduate Algorithms (CS-6515) at Georgia Tech, the course that arguably has the hardest reputation for the online Master of Science in Computer Science program. Georgia Tech's official course page contains topics, the syllabus, and recommended prerequisites, but lacks the perspectives of students. Things such as the actual difficulty, weekly workload needed, and how to study are not available through official channels but instead the knowledge is provided by students across various sources. This system brings the scattered knowledge together for easy access.
 
 ---
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | omscentral | GA CS6515 student reviews | https://www.omscentral.com/courses/introduction-to-graduate-algorithms/reviews |
+| 2 | reddit | Effectively studying for GA | https://www.reddit.com/r/OMSCS/comments/15kch4o/how_to_effectively_prestudy_for_graduate/ |
+| 3 | reddit | Student experiences in GA | https://www.reddit.com/r/OMSCS/comments/1osa2qg/how_has_been_your_experience_in_grad_algorithms/ |
+| 4 | reddit | GA It's true what they say | https://www.reddit.com/r/OMSCS/comments/vleq4h/cs6515_graduate_algorithms_its_true_what_they_say/ |
+| 5 | omshub | GA CS6515 course reviews | https://www.omshub.org/course/CS-6515 |
+| 6 | lowyx blog | CS6515 OMSCS - Graduate Algorithm | https://lowyx.com/posts/gt-ga/ |
+| 7 | takp blog | Course Review: Intro to Graduate Algorithms @Georgia Tech | https://takp.me/posts/cs-6515-into-to-graduate-algorithms-at-georgia-tech/ |
+| 8 | richard lee blog | Tips to get an A in GA (study/exam strategy) | https://rich-w-lee.medium.com/tips-to-get-an-a-in-omscs-graduate-algorithms-6bf0af13b4e1 |
+| 9 | abhijithc blog | GA CS6515 review (May 2024) | https://abhijithc.com/blog/2024/05/04/ga-(cs6515)-an-omscs-review.html |
+| 10 | etlq blog | GA review - proofs and theory focus | https://etlq.github.io/omscs/ga/ |
 
 ---
 
 ## Chunking Strategy
 
-<!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+We will use two chunking strategies for our documents based on source type, one for the review aggregators (omscentral and omshub) and another for the blogs and reddit threads.
 
 **Chunk size:**
 
+The sizing of chunks will vary depending on source type. For reviews, we will add a delimiter so we can separate and have one review per chunk. The reviews are self contained and could be tainted if multiple reviews are included in one chunk, however if reviews are too long and broad it could reduce the effectiveness as well. So in addition to doing no more than one review per chunk, if a review is larger than 256 tokens it will split into multiple chunks.
+
+For the blogs and reddit threads, we will instead split by paragraph while also adding a delimiter to separate different users and comments. This ensures we are effectively chunking the content while separating different comments and posts by their writers, so multiple perspectives are not given in one chunk. In addition the same 256 token cap will apply, so longer paragraphs can have multiple chunks. A short reddit post or comment becomes a single chunk, but longer comments or blog posts become several.
+
 **Overlap:**
 
+We will have one sentence overlapping between chunks for the paragraph splits on blogs and reddit threads, while still respecting the delimiter between individual comments so overlap is only present when chunks are from the same writer.
+
 **Reasoning:**
+
+Our documents consist of two main source types. First we have short student reviews from omshub and omscentral. These make sense as one review per chunk since they are self-contained unit withen the larger document, and most fit under the 256 token cap or can be split effectively. The other type is more free form paragraphs from comments and blog posts of varying length and styles from different writers. Splitting these by paragraph and holding comment boundaries keeps the chunks focused and relevant.
 
 ---
 
