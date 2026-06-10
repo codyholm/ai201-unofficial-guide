@@ -39,79 +39,74 @@ We will have one sentence overlapping between chunks for the paragraph splits on
 
 **Reasoning:**
 
-Our documents consist of two main source types. First we have short student reviews from omshub and omscentral. These make sense as one review per chunk since they are self-contained unit withen the larger document, and most fit under the 256 token cap or can be split effectively. The other type is more free form paragraphs from comments and blog posts of varying length and styles from different writers. Splitting these by paragraph and holding comment boundaries keeps the chunks focused and relevant.
+Our documents consist of two main source types. First we have short student reviews from omshub and omscentral. These make sense as one review per chunk since they are self-contained units within the larger document, and most fit under the 256 token cap or can be split effectively. The other type is more free form paragraphs from comments and blog posts of varying length and styles from different writers. Splitting these by paragraph and holding comment boundaries keeps the chunks focused and relevant.
 
 ---
 
 ## Retrieval Approach
 
-<!-- Which embedding model are you using (e.g., all-MiniLM-L6-v2 via sentence-transformers)?
-     How many chunks will you retrieve per query (top-k)?
-     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
-     would you weigh in choosing a different embedding model — context length, multilingual
-     support, accuracy on domain-specific text, latency? -->
-
 **Embedding model:**
+
+We will be using all-MiniLM-L6-v2 for the embedding model, via sentence-transformers. This was chosen because it runs locally with no API keys required, runs fast, and reads up to 256 tokens per chunk which is large enough to perform well with our content type in documents.
 
 **Top-k:**
 
+Starting at k=5. The questions this guide answers are mostly consensus questions, for things such as difficulty or weekly workload the useful answers are the ones the most students agree on. Too few chunks we might only get one outlier review and not see what most students think, or not take into account a contradicting claim. If there are too many though we could receive chunks that are unrelated or broaden the scope of what we're asking. 5 should be a good starting number for testing, will tune during evaluation stage.
+
 **Production tradeoff reflection:**
+
+If this were a real production deployment with no cost constraints, the first thing to look at would be context length. The 256 token limit forces us to split long reviews and blog sections, even if all of the context is relevant and we wanted it larger. This results in the possibility that a chunk does not contain a complete argument or all the desired detail for later retrieval. A longer context model could hold a full review and longer sections of blog posts in one chunk. Also I'd test a larger or newer model for domain accuracy on the technical language and on the opinion text, MiniLM is a small general-purpose model but bigger models not run locally could retrieve more accurately.
 
 ---
 
 ## Evaluation Plan
 
-<!-- List your 5 test questions with their expected correct answers.
-     Questions should be specific enough that you can judge whether the system's response
-     is right or wrong. "What are good dining halls?" is too vague.
-     "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
-
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | How many hours per week do students usually spend on GA? | Around 20-30+ hours depending on student's algorithms background |
+| 2 | What do students recommend to do in preparation for GA before starting? | Review the course's textbooks, understand math and dsa fundamentals. |
+| 3 | Is GA as hard as people say? | Mixed reports. Many call it brutal and stressful, others say it is manageable and fair if you keep up with homework and practice problems |
+| 4 | Should I practice LeetCode to prepare for GA? | No, LeetCode is more about implementing to solve specific puzzles, and GA is about theory and proof-writing. |
+| 5 | What is the most difficult subject or topic in GA? | Often the proofs and max-flow/NP material, but all of it can be difficult if not studied and practiced. |
 
 ---
 
 ## Anticipated Challenges
 
-<!-- What could go wrong? Name at least two specific risks with reasoning.
-     Consider: noisy or inconsistent documents, missing source attribution, off-topic
-     retrieval, chunks that split key information across boundaries. -->
+1. Conflicting reviews and opinions. Students can disagree substantially on things such as difficulty and time needed. Retrieval might pull chunks from only one side, producing a biased answer. This system is better used to gather a consensus and various perspectives, not providing a single factual answer.
 
-1.
-
-2.
+2. Course information that has changed or is outdated. The GA course has seen updates in recent years, including the grading structure and how much exams make up final grade. Although our documents tend to be newer, there are some things that are inconsistent based on when the course was taken.
 
 ---
 
 ## Architecture
 
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
-
----
+```
+Document Ingestion       ->  Python script (load 10 .txt, clean)
+         |
+         v
+Chunking                 ->  two-mode chunker (review / paragraph)
+         |
+         v
+Embedding + Vector Store ->  all-MiniLM-L6-v2  ->  ChromaDB
+         |
+         v
+Retrieval                ->  semantic top-k search (k=5)
+         |
+         v
+Generation               ->  Groq llama-3.3-70b-versatile  ->  Gradio UI
+```
 
 ## AI Tool Plan
 
-<!-- For each part of the pipeline below, describe:
-     - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)
-     - What you'll give it as input (which sections of this planning.md, which requirements)
-     - What you expect it to produce
-     - How you'll verify the output matches your spec
-
-     "I'll use AI to help me code" is not a plan.
-     "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
-     with my specified chunk size and overlap" is a plan. -->
-
 **Milestone 3 — Ingestion and chunking:**
+
+I will use Claude Opus for implementation and Gpt 5.5 to do reviews. First I'll give Claude the Domain, Documents, and Chunking Strategy sections from planning.md as context and have it summarize to make sure we're aligned. Then have it write implementation plan for writing load_documents() and chunk_text(). This includes the cleaning and normalizing of characters as well as cleaning up various web page elements. And then for the text chunking, implementing the two different methods based off source type. Review the plan and if it meets requirements have Claude implement.
 
 **Milestone 4 — Embedding and retrieval:**
 
+In new session with Claude Opus, provide the retrieval approach section and the architecture diagram as context. Ask it to embed the chunks with all-MiniLM-L6-v2 and load them into ChromaDB with metadata. Then have them write function retrieve(query, k), which should return relevant chunks plus sources and distances. Verify by running evaluation questions, check distances are low and the chunks are relevant. If needed adjust k and compare results. In new session with GPT 5.5, have them review the implementations from milestone 3 and 4. They should verify code is correct, check for edge cases, and that the full process runs. Request they come up with additional questions to test out in addition to evaluation questions.
+
 **Milestone 5 — Generation and interface:**
+
+In new session with Claude Opus, give Claude the architecture diagram and retrieval approach as context again, as well as having it check the implementation for milestone 3 and 4. Then in plan mode have it write out implementation plan for the generation and interface. For Generation they should write generate(query) which calls the groq model with a grounding prompt, having it answer only from the retrieved chunks with sources included, and returning an appropriate message when not enough information. For the interface we are doing a Gradio UI, which takes the question and returns answer with sources. Review the plan and if it meets requirements have Claude implement. After verify end to end with eval questions, confirm sources show in the output, and that questions not answerable from sources are refused. Once verified, have GPT 5.5 code review final implementation, checking for potential edge cases or runtime issues.
