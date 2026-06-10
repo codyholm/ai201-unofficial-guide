@@ -1,0 +1,286 @@
+r/OMSCS
+•
+3y ago
+Lostwhispers05
+
+How to effectively pre-study for Graduate Algorithms
+
+So I'm choosing to err on the side of caution and take the warnings about GA very seriously.
+
+I'm doing only ML4T this coming Fall semester, and given that it's one of the lighter courses, I'm anticipating I'll have a fair bit of free-time - which I figure I might as well use to prep for GA as much as I can.
+
+What's generally the best way to go about doing so?
+
+Currently, I'm reading "Grokking Algorithms", and I'm also going through Neetcode's various video guides on algorithms too. Theory-wise I'd like to think I at least have a decent handle on most things, so at least I wouldn't be going into it a complete beginner, but what has me terrified is the unforgiving grading, and 70%+ weightage on exams.
+
+How could one go about getting acquainted on the style of responses expected? Are we for instance allowed to ask older students for their homework materials, or even exam questions?
+28
+·
+33
+Comments Section
+u/zwillging avatar
+zwillging
+•
+3y ago
+Not to diminish what you’re currently doing - but why not instead begin by spending your time learning the course lectures, or read the required book instead? (and rewatch the lectures when taking the course)
+
+Actual homework problems and exam questions aren’t allowed to be shared, but I believe there’s listed practice problems on slack, and Anki flash cards I’ve heard are very useful.
+23
+u/I_Seen_Some_Stuff avatar
+I_Seen_Some_Stuff
+•
+3y ago
+I just took GA in the spring and spent way more time than I needed to. I spent 30 hours a week on it, which was waaaaay overkill, but I did get the A. 15-20 hours is sufficient for a B.
+
+There are 3 exams. You can drop one of those grades and replace it with the final exam grade. Every exam followed the same 3-part format: 1 question that was a near identical copy of a problem from the homework or practice problems, 1 question that uses the same line of thinking, but to solve a new problem (so this part is a little harder) A multiple choice section that is basically memorization or trivia from the lectures.
+
+Don't waste your time and money buying and reading the book. I did, and I wasn't ever tested a single time on anything from it that wasn't in the lectures.
+
+I know this class has a nasty reputation, but the stress you get in this class is purely self inflicted based on how you judge yourself for getting low grades. Don't worry, because they adjusted the bounds of an A, B, etc. to fit a normal distribution. If you look at the stats, most people that take this class pass it the first time. You're just hearing from a very vocal minority.
+
+Oh, and when the instructors tell you in week 1 that the course is designed to teach you everything you need to pass, listen to that. Don't be grinding leetcode and filling your head with stuff that won't be on the test. Do that AFTER this class, because everything on the exam is about memory recall from things from the class (either for the technique to solve it, or the problems themselves). You wanna keep only the course content in your brains memory cache while taking this one.
+
+18
+u/Eggman1978 avatar
+Eggman1978
+•
+2y ago
+Oh, and when the instructors tell you in week 1 that the course is designed to teach you everything you need to pass, listen to that. Don't be grinding leetcode and filling your head with stuff that won't be on the test.
+The self-assessment homework 0 recommends that if you don't know big O notation, that you should read chapter 0 of the DPV textbook, but it doesn't give any reading recommendations for graph theory or boolean functions. Looking at the chapters of the textbook, I would guess graph theory is covered by chapters 3 and 4, but I have no idea what to do for boolean functions. Is there any reading or online resource that you would recommend for boolean functions? It looks like it's a discrete math thing.
+1
+[deleted]
+•
+3y ago
+this is the correct reply. GA is a memorization class and ability to recall the joves format during exam.
+
+1
+u/I_Seen_Some_Stuff avatar
+I_Seen_Some_Stuff
+•
+3y ago
+Oh yeah, OP, the format you give your answers in is like half the points
+2
+u/Diffie-Hellboy avatar
+Diffie-Hellboy
+•
+3y ago
+You don't need to do any of these to pass or even excel in GA. Take the complaints about GA with a boulder of salt.
+
+This is a standard algorithms course. Just watch the lectures, take notes, do the assigned reading, attend office hours, actively participate in the re-grade Ed threads and follow the instructions provided by the TAs.
+
+The TAs spell out exactly what they want in the homework and exam solutions. If you just follow those templates, you can get full credit in all the problems.
+
+For prep, watch the publicly available lectures and read the relevant chapters in the DPV book.
+
+27
+u/spacextheclockmaster avatar
+spacextheclockmaster
+•
+3y ago
+What is the DPV book?
+
+3
+leagcy
+•
+3y ago
+Dasgupta, Papadimitriou, Vazirani algo textbook
+7
+u/ParkerM avatar
+ParkerM
+•
+3y ago
+I think Time Trouble is the biggest issue, at least for exam 1. It took me an exam grade or 2 before I realized I could get away with a lot more of a time-saving scribbly (but still legible) mess, at least wrt grammar and being able to skip explaining known concepts in too much detail.
+1
+u/RunningVic avatar
+RunningVic
+•
+3y ago
+Watch the video on Udacity. Read the free DPV book and do the practice problems. Some questions are also on leetcode. Longest increasing subsequence, longest common subsequence, edit distance etc. I just started. I guess there are more similar problems on leetcode.
+5
+eccentric_fool
+•
+3y ago
+The course textbook is: Algorithms by Dasgupta, Papadimitriou, Vazirani
+
+You can watch the video lectures here: https://omscs.gatech.edu/cs-6515-graduate-algorithms-course-videos
+
+The key to doing well in GA is understanding the difference between solutions to problems and techniques to solving problems. If you learn the solution to a problem, you've learned that specific problem. If you learn the techniques that explains and leads to the solution, than you can apply it to new problems.
+
+Students that struggle in GA focus on learning/memorizing solutions and ignore the techniques. Don't misunderstand this statement. You WILL need to remember solutions to key algorithms. However, you also need to understand the techniques that lead to those solutions to understand which solution should be used as a template and what parts of the solution needs to be modified to address new problems.
+
+Learning the techniques taught in GA is hard if you have not developed proof-read/writing skills. I think for beginners who cannot take a proof-based math course should read: Proofs by Jay Cummings
+5
+u/sober_gopherr avatar
+sober_gopherr
+•
+3y ago
+I just took it this summer and watched most of the lectures (taking notes on them) before the semester started. I didn't read the book at all (though I did many of the suggested practice problems out of the book throughout the semester). Probably spent 5-10 hours/week during normal weeks, and 20 hours or so during exam weeks and was able to get an A. So my top suggestion would be to just watch all the lectures and take notes on them. It will be more effective than watching Neetcode. You only write pseudocode for homework and exams for the first exam material (dynamic programming), so practicing Leetcode style problems only makes sense for dynamic programming.
+
+5
+u/4bangbrz avatar
+4bangbrz
+•
+3y ago
+Is this class a lot of proofs? I’m looking at the book right now and it seems that all the questions are just that. To me, this appears to be more like a discrete math course rather than DSA
+
+2
+u/BlackDiablos avatar
+BlackDiablos
+•
+3y ago
+Is this class a lot of proofs?
+Not really. There are a lot of proofs in the book & lectures, but the class does not ask for any proof-style solutions until NP-Complete reductions at the end of the course.
+
+This Wiki has a curated set of problems from the book which are most similar to the problems assessed in the class.
+2
+u/sober_gopherr avatar
+sober_gopherr
+•
+3y ago
+Not really. The only proofs you write are for proving NP-completeness (Exam 3). But the proofs aren't like the typical proofs written in a discrete math course (from what I remember from my undergrad experience at least) with a base case and an inductive step.
+
+For dynamic programming problems (Exam 1) you must describe algorithms in mathematical formulas and pseudocode, and then analyze the time complexity.
+
+For graph problems (Exam 2) you write the algorithm in words, describe the correctness of the algorithm, and analyze the time complexity.
+
+The course provides templates for how these solutions are to be written in Ed Discussion posts.
+1
+[deleted]
+•
+3y ago
+- leetcode and grokking algorithms are not going to help. you need to memorize joves format to get the marks. else be ready to see -12 for missing a comma.
+
+- solve all questions of dpv. exams are a small variation of the practice question.
+
+tl;dr - fear the joves format.
+
+6
+u/drharris avatar
+drharris
+•
+3y ago
+Wow... how did people ever pass before Joves took the course?
+3
+u/SearchAtlantis avatar
+SearchAtlantis
+•
+3y ago
+Joves isn't available anymore last I knew?
+
+2
+u/BlackDiablos avatar
+BlackDiablos
+•
+3y ago
+The summary portion of the notes has been moved to official Ed posts.
+
+The sample solution portion of the notes was shared during his office hours during the summer semester.
+
+"Joves format" is just another way to say "minimum viable solution" which could be ascertained from carefully reading the Ed post. The class model solutions tend to provide a healthy amount of explanation that wouldn't be required in a student submission.
+4
+u/Diffie-Hellboy avatar
+Diffie-Hellboy
+•
+3y ago
+You don't need to memorize the format, Joves even addressed this in one of his office hours. The template is a recommendation, not a requirement.
+
+The TAs will give full credit for any correct solution. They recommend the template because, it is very easy to miss essential parts of the solution even if your idea/approach is correct.
+
+1
+[deleted]
+•
+3y ago
+dont misguide new students. the format is a hard requirement. correct solution does not matter if it is not in the format. fear the joves format.
+
+2
+eccentric_fool
+•
+3y ago
+Joves' format is hardly Joves'. For "Divide and Conquer" and "Graph" problems, the problem format is:
+
+Problem Description
+
+Describe an algorithm to solve the problem, justify its correctness, and analyze the runtime.
+Joves' recommended format for these problems is:
+
+Section 1: Describe the algorithm
+
+Section 2: Justify correctness
+
+Section 3: Runtime analysis
+It does not take reading Joves' notes to come up with this format.
+
+Formatting is only an issue is if the organization is so confusing its hard for the grader to verify all the necessary components. E.g. if you're going to interleave your runtime analysis with your algorithm description, do it in a predictable manner. Don't put parts of your runtime analysis with the algorithm description. Then surreptitiously discuss the unmentioned parts of the runtime analysis in a separate section.
+
+1
+[deleted]
+•
+3y ago
+bs. explain the full algorithm without the format and you are looking at bottom 5% in the class.
+1
+Continue this thread
+ u/jazzcc avatar
+jazzcc
+•
+3y ago
+My recommendation is to just get a small head start on the actual course material and try to maintain that lead during the semester. That really just means drilling and practicing dynamic programming problems from the textbook until it's second nature to you.
+
+Then, you can stay about a week or two ahead of the class when it starts. That gives you a better cadence for studying the material before the class gets to it, reinforcing it with homework, and helping teach the material to your study group for further reinforcement. It also gives you a buffer to spend extra time on any material that's challenging for you later in the semester.
+3
+u/srsNDavis avatar
+srsNDavis
+•
+3y ago
+If you have a CS background, your undergrad CS algorithms course should be decent prep conceptually.
+
+You can always watch the GA lectures (they're public) or read (and do some random problems from) DPV. As for writing solutions, I'm not sure there are resources out there to actually show you the examples, but if you read any algorithms text, you will only need to make minor tweaks to get used to the style of writing answers for GA.
+
+For instance, almost every algorithms text explicitly mentions the base case, the recurrence relation, the pseudocode, and the running time analysis (not necessarily in the same order) for dynamic programming problems. These are exactly the four points you need to hit in GA for dynamic programming.
+
+For algorithms, I highly recommend DPV even if it's not the required textbook by the time you take GA (unlikely, but who knows) because it's the right balance of mathematical rigour, readability, and brevity. I also like Jeff Erickson's book on Algorithms. CLRS is a classic but reading it cover-to-cover is probably overkill for what the course covers.
+
+On the mathematics side, practice proof writing if you didn't in your undergrad (though this is something you can pick up quickly in the course). If you want a headstart, read any (101-level) primer on modular arithmetic, complex numbers, and graph theory. You don't need too much to succeed (that's HPC stuff - looking at you, spectral partitioning), just the basics.
+
+I'm not sure how much leetcode (or any of its clones) would help. These platforms have you implement stuff, and while you do need to understand stuff to be able to implement it, I find that implementation takes away a lot of the focus from the design to the implementation (e.g. instead of the conceptual idea of a list, you may be focused more on thinking, 'can I do this better with the functions that apply to a list or a NumPy array?'). This course is mainly about the conceptual design of algorithms (with three mini-projects thrown in), so it's more of a theory thing.
+
+Most importantly, don't freak out. GA is pretty much a normal algorithms class (and I'd even say this if I didn't earn my bragging rights in HPC), just one with high-stakes exams. Fortunately, there's generally enough time to work on the problems. If you see something you don't immediately understand, don't panic, do what you know, and come back to think about it calmly. If you understand the algorithm design techniques (e.g. dynamic programming, divide & conquer, randomisation), you will likely be able to figure it out.
+
+3
+Sirtato
+•
+3y ago
+Thank you for this write up! On the proof side, do you have an example of the type of proofs we would be writing or how to prep for that aspect of the class? I haven't done a proof in almost a decade so I'd essentially be starting from scratch which is what concerns me most about the course.
+
+On another note, is the course mostly self-contained?
+
+2
+u/srsNDavis avatar
+srsNDavis
+•
+3y ago
+Proofs: Think justifications of correctness for dynamic programming or divide-and-conquer algorithms. Or NP-completeness proofs (by reduction). Once again, most algorithms texts should cover this, and you can learn from their style. At worst, you'll need to make a few minor tweaks when you're in the course and get to see model solutions.
+
+Self-contained? Depends on what you mean by self-contained. It's not self-contained in the QC sense (I mean there's no quantum information science or quantum complexity courses here), but almost all courses use algorithms (I consider it one of those parts that is central to all of computer science... Except - you probably guessed it - HCI, which is more of a human factors thing).
+
+There's not much that GA expects you to know coming in (your usual first course in algorithms from undergrad should probably make major parts of GA a review). On the other hand, while GA is hard to get into early on (FFAF remains your best bet), it is a good first course, since what you learn can help you in most other courses.
+
+The one course GA ties in with most directly is HPC, which is a parallel, distributed, and I/O-efficient algorithms course. Ideally, you should be following up GA with HPC (if algorithms stuff interests you... HPC is great, but hardcore), but I've seen a lot of people go the other way just because GA is hard to get into early on.
+
+2
+Sirtato
+•
+3y ago
+This is super helpful, thanks a ton. Definitely eased my nerves
+2
+u/drharris avatar
+drharris
+•
+3y ago
+To echo another comment, I'd like to encourage simply using the course materials. One of the most common problems I've observed from students who do poorly amounts to, "I tried all the youtube videos, leetcode, etc. and just can't succeed!" As if there is some simple external trick that gives you an edge in this course. On the contrary - everything you need is in the lectures, book, homeworks, and practice problems. I know people who have only used the first of those to succeed. Certainly, if you encounter topics you need an extra assist on, it can be beneficial to seek out additional perspectives or read up on those topics, but in general I would stick with the material the course provides, and learn to master those topics to a level at which you can explain them to other people (or point out flaws in approaches).
+2
+krkrkra
+•
+3y ago
+It's seriously not that bad. Go through the lectures; read the relevant DPV chapters. Make Anki decks now and use them. Start trying the practice problems you can find recommended online.
+
+I did essentially no prep before the summer session, did not have a CS undergrad, and still got a solid A.

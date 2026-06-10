@@ -1,0 +1,57 @@
+Course Review: CS 6515 Intro to Graduate Algorithms @Georgia Tech
+November 23, 2020
+I just finished the 6th class (2020 Fall) in Georgia Tech OMSCS (Online Master of Science in Computer Science)! The class was CS6515 - Intro to Graduate Algorithms. I’ll summarize it while it’s still fresh in my mind.
+
+1. CS6515 Intro to Graduate Algorithms
+This algorithm course is known to be a very hard program. It is rated as 4.28 difficulty (in 1-5) and requires more than 20 hours/week workload at omscentral.com (The course review website for Georgia Tech OMSCS).
+
+This course is the core program for many specializations in GaTech OMSCS. Therefore, it is super popular and very hard to enroll. Usually people can get in this course for the last class of the whole program (due to the registration priority). But fortunately I could get the spot since someone withdrew and I got it.
+
+2. Covering Contents
+It covers all major topics in algorithms.
+
+Dynamic Programming (DP)
+LIS (Longest Increasing Subsequence), LCS (Longest Common Subsequence)
+Knapsack
+Chain Multiply
+Shortest Paths
+Divide and Conquer
+Multiplication
+Complex Numbers
+Median
+FFT (Fast Fourier Transform)
+Randomized Algorithms
+Modular Arithmetic
+RSA cryptosystem, primality testing
+Graph Algorithm
+SCC (Strongly Connected Components)
+2-SAT (2-Satisfiability Problem)
+MST (Minimum Spanning Tree)
+Max-Flow Algorithm
+Ford-Fulkerson algorithm for Max-Flow
+Max-Flow=Min-Cut
+Image Segmentation
+Flow Variant: Demands
+Edmonds-Karp algorithm for Max-Flow
+LP (Linear Programming)
+LP Introduction
+Duality and Geometry
+Max-SAT approximation algorithm
+NP
+P, NP, NP-Complete, Reductions
+3-SAT
+Graph Problems
+Knapsack
+Halting Problem
+I think it focuses on a bit more advanced topics because some of the algorithms are not taught in the class. For example, BFS (Breadth First Search), DFS (Depth First Search), Binary Search, Dijkstra’s algorithm are not explained in the class and the students are expected to understand them in advance.
+
+3. My Thoughts
+I really love the course contents and the lectures. I knew how to apply the dynamic programming, but I could deepen my understandings, and I could get more confidence how I would approach the unknown problems.
+
+Also, it required the deep understandings of the graph problems. The pseudo codes are not required for the graph problems, but we need to provide how we apply the known algorithms to solve the problems. So it’s not only knowing the algorithms, but it required how we can apply them to the new problems.
+
+About NP problems, we need to prove the NP-completeness. The reduction is the key for the proof. We think of the known NP-complete problem, and reduce it to the new problem ( Known problem -> new problem). To reduce it successfully, we need to show the convergence of the input, the transformation of the output, and also the solution existence for “iff” conditions (if-and-only-if). It was challenging but it worth it. By mastering this np-complete proof, you can know prove the problem is NP-complete or not. Then, the next step can be different depends on the result, because np-complete problem is not solvable in polynomial time. Therefore, you may step into the approximation algorithm to the np-complete problem.
+
+Almost every week you will get an assignments. But those assignments are great resource to study, and if you master them, you can ace at the exams. So it really worths to put your effort on.
+
+Anyway, I’d strongly recommend this course. If you don’t have a prior knowledge of the algorithms, it maybe harder for you to catch up, but it’s possible. TAs were super helpful so don’t afraid to ask

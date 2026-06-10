@@ -1,0 +1,543 @@
+r/OMSCS
+•
+4y ago
+JUSANETENG
+
+CS6515 (Graduate Algorithms) - its true what they say...
+
+I'm in GA and we're currently preparing for exam 2, and I figured I'd share some information with future students. A few notes about myself, because I know you may be thinking "here's another lazy whiner". I have a 3.6 GPA, which is evidently not perfect. My undergrad was not in CS but in Computer Engineering. I took EOS, AOS, SICC and DC as electives because I knew they were intense courses but would be rewarding. This is my 9th class. I'm a SWE at a FAANG company.
+
+If you don't know, this course requires a 70% to get a B [the curve] and a B is mandatory for most specializations for graduation. TAs say this may be adjusted at the end but who knows by how much? At the start of class, I joined a study group with [originally] 5 people. Of the 5 in the study group, 2 people have withdrawn - both taking this as their final course before graduation. 2 of the 3 remaining people received Fs on exam 1, including myself. Here are some exam 1 statistics:
+
+- Mean: 36.8/60 (61%)
+
+- Median: 37.4/60 (62%)
+
+There have been several posts about the extreme strictness in the grading. Based on exam scores, which is 75% of the grade, more than half are FAILING. We aren't first semester students and nearly everyone is taking this as a last, required course. Here are some problems I've seen with this course and I hope you don't have to experience this in the future:
+
+- Grading is insanely strict for homework and exams. You can have the core of the algorithm implemented correctly, yet miss 50% of points because of syntax and incorrect indices.
+
+- It's possible to bomb one [algorithm] question on the exam and drop to a D. The problem may not "click" for you, you may misinterpret the input or output, you may just struggle to solve it, etc.
+
+- The mean of the multiple choice questions was barely over 50%.
+
+- While they allow 2.5h for the exams, it's relatively little time when you don't immediately find the solution to the algorithm and you make more than 2 attempts to solve it differently.
+
+A TA created a thread titled "Post-Exam 1 - Should I drop?" (see below), because it's obvious that a large number of students are failing. The caveat is that these students are REQUIRED to take the course. Statistically most of us should pass, but the entire time, I've had anxiety and for good reason...I'm currently failing and so are lots of students. I won't offer any solutions [because I have none]. While the content is interesting, it's been an extremely terrible learning experience.
+
+People generally get discouraged in the class around this time (first few HWs with fewer points than expected, exam 1, post exam 1 fears, etc.) and give up and drop. I generally advise, don't drop unless one of the following applies to you:
+
+You have a low D or an F in the class, and it doesn't look feasible to pull at least a C. (Keep in mind the letter grade cutoffs are more generous than most classes when doing this calculation.)
+
+Note: if you're II specialization, you can need only a C, depending on the other classes you have/will take. The other specializations need a B. I'll talk about this more in a sec.
+
+Note: Don't forget to look at the syllabus and the letter grade cutoffs! The way averages work, it's way easier to move from a 67% to a 70% than it is to move from a 77% to an 80%. This is hugely in your favor.
+
+Stress from the class is putting you in a dangerous mental place. (Always take care of yourself first - GA and OMSCS are not more important than you.)
+
+You know for sure that you will not have time to devote to the class. (We all have lives with stuff going on).
+
+Your GPA is already at 3.0 or lower across 8 or 9 other classes.
+
+You need the money from tuition refund.
+
+You have some other pressure on yourself to make an A in the class. (Employer tuition assistance, competitiveness applying to PhD program, you want to TA this class, etc.)
+
+However, if you think you should be able to at least get a C, I strongly advise not dropping.
+
+If you are not specializing in Interactive Intelligence, regardless of whether you drop or not, you are going to have to take the class again at some point. Dropping doesn't have much benefit (unless one of the earlier bullet points applies to you)
+
+If you are specializing in Interactive Intelligence, then you can either replace this class with a different class, or...substitute "D" for "C" in all this advice.
+
+If you are going to have to take the class again at some point, sticking with the class means:
+
+As long as your overall GPA is high enough to absorb a C (generally you need at least one A grade to counter a C grade, due to how averages work), no impact on your ability to graduate later.
+
+You'll get exposure to exam 2 and 3 material. More time on the material = better understanding for the next time you have to retake the class anyways.
+
+There's still potential to actually earn that passing B grade (or A grade - I've seen it done many times!!)
+
+And regardless, remember that CS 6515 is a tough class for many folks, and it's extra challenging in the summer when you have less time to absorb it all. Remember that you are not defined by your letter grades, for better or for worse. Earning an A doesn't mean you're an amazing person (sorry, those of you that have A's, but if you have an A, why are you thinking about dropping?), and earning less than a B doesn't mean you have less value or don't deserve to be here.
+
+Hope that helps some of you that are trying to make tough decisions, and best of luck, everyone.
+EDIT: Final grades are in I received a B. After exam 3, which I got a low D in, I had a 69% overall. The cutoff for a B was 67%. My reaction was relief and also anger. This class was so difficult and so much depended on it. My previous semesters were all very difficult courses (e.g. DC, SICC, AOS) and the stress from those compounded with GA in particular affected my work performance and personal life. I wish anyone in the future good luck and I share your frustration. BTW, there are no plans for the course to change, according to the professor (copy and paste from Ed):
+
+Student: "Dr. Brito, what is one thing you would like to change about this course?"
+
+Gerandy Brito: "I think the course is very nice. I do not want to change it, but to add other topics (even within the current topics). For an Intro course in Algorithms I think it does the job nicely."
+111
+·
+68
+Comments Section
+u/axbisme avatar
+axbisme
+•
+4y ago
+I’m going to write this comment to hopefully inform and inspire some people. I graduated from the program this past Spring 2022. I took this course 3 times before I finally passed. The semesters I took the course were: Spring 2020, Summer 2020, Spring 2022.
+
+I attended a state school for my undergrad and I do not work for a major software company. I would classify myself as an above average student but not elite in any capacity. I am intelligent but not without effort and never the smartest guy in the room.
+
+The perspective I have on this course is unique in that I took an entire year off and could see some of the improvement/changes made to this course from the previous two semesters I took it.
+
+With that said here are some myths that need to be debunked. I should also lead with, I fell prey to all of the listed myths in some fashion:
+
+The dynamic programming problems are the most difficult
+If I work through all of the problems in the book, this ensures success on the test
+I can rely on doing well on the homework assignments and projects to help my final grade
+Study groups will help me
+I should stick it out because there will be a curve and I might make the threshold.
+Myths debunked:
+
+Though the dynamic programming problems can be difficult, I’ve found that this is almost never the most difficult problem on the test. This question actually is usually the “softball” question of the exam if one exists. This question usually is testing simply if you can formulate an answer for a basic dynamic programming problem. The issue is that this question is hyped up. You will get the exam, overthink the answer and get it wrong.
+The problem with getting this wrong is that you dedicated most of your time studying and practicing dynamic programming problems only to bomb it on the exam. Now you are in quite the predicament. Spent most of your time with DP problems when in fact the divide and conquer problem is the more difficult algorithm to formulate.
+
+Now you are in real trouble. You bombed the DP problem AND the DC. This means a definite F on the first exam.
+
+2. Instructors, TAs and other 1% students will tell you working through all of the problems leads to success. This is not true. Why? Because each question is its own entity with its own “aha” moment.
+
+To ensure success in the exam, you have to perform on the exam. You have to keep your calm, brainstorm every possible solution and methodically work through the problem. Working a similar problem can help but it absolutely does NOT ensure success. Do not be over confident and realize you will have to work for a solution. There are no gimmes.
+
+3. The projects are no doubt the easiest grades in the course. However, there are some “gotchas” that you may not account for and there’s no official test cases provided by instructors to avoid students over fitting their code.
+
+Then there are the homeworks. These are critical. The issue is the grading and the weight. Your homework can’t hurt you too bad but it can help a whole lot. When you get to the end of the semester, every point counts. If you take anything away from this comment. Take this. You. Need. Those. Points. Fight like hell for every single homework point. Do not give away any points. This can be the difference between a C and B at the end.
+
+The grading for the homework is highly inconsistent. Some TAs grade harshly, others not so much. I’ve submitted homework from previous semesters where I made an A and got a F in the current semester. “Wow that doesn’t make sense!” Welcome to 6515.
+
+4. Study groups are great but honestly you are probably better off learning this material on your own. With over half of the class failing, do you really trust that the people in your study group can help you? In my opinion, ditch the group. Get your hands on any material that can make these concepts understandable for you. YouTube, Geeks for Geeks, etc.
+
+5. I took this class 3 times and the final grade was only curved once. I in fact made higher the first time I took the course than I did this past Spring. Do not count on the curve. My opinion is that the 2nd and 3rd exams are easier than the 1st but not easy in any sense. Stick with this course if you are floating around that 70 mark or if you’re confident you can turn it around. This is the where you need to be self aware and honest with yourself of your capabilities. Sticking it out to the end doesn’t really provide an advantage except for a few homework problems here or there and that’s only if you did them correctly the previous semester. Also remember what I previously stated about the inconsistency in homework grading. My point is that it’s okay to withdraw and try this again another semester.
+
+Last point: if you have to retake this course, I know it is discouraging, frustrating and maybe a little embarrassing. Everyone in this program were great to elite undergrad students who excelled academically. We are not accustomed to failing or retaking courses. Please understand that you are not a failure if you have to retake. This course has many issues and you simply may have just had poor luck with your grading TA, exam question wording, missed some test cases for projects or bombed a homework or two. Collect yourself, enroll in the course again and try your best. Take a break for an extended period of time if you have to.
+
+I know a lot of people will say man, you took it 3 times? When is enough enough. This was my last course and the only thing that stood between me and my degree. I honestly contemplated quitting almost everyday. I took that year off for my mental health, came back and gave it another shot. GT is a top 10 research university and obtaining this degree has already provided opportunities that weren’t available to me before. So hang in there and get this degree. Finish what you started.
+
+39
+u/Bancas avatar
+Bancas
+•
+4y ago
+You have informed and inspired me. Thanks.
+8
+u/JUSANETENG avatar
+JUSANETENG
+OP
+•
+4y ago
+Thank you very much for this! Could you share what your grades were in each of your 3 attempts? Ideally exam and homework scores and whether or not you withdrew or just didn't get the B.
+
+1
+u/axbisme avatar
+axbisme
+•
+4y ago
+First semester, my grade was a 69.4. Second semester, 65 I think (I honestly just think I was burnt out from the previous semester of taking the class. I probably should have taken a break before attempting it again.). This past semester it was a 68.
+
+My project grade was a 90. I missed some dumb test case that I didn’t account for on the first project which caused me to get an 70. I got 100s on the next two.
+
+Homework grade was pretty atrocious at 51%. The homework problems were more difficult than past semesters and the homework grading was a lot more strict. I bombed a few and this was the result.
+
+Exam grades: Exam 1 (69.7), Exam 2 (63.8), Exam 3 (56.6), Final (65)
+
+I would say the only exam grade that is misleading is Exam 3. I in fact solved the problem correctly. With the correct reduction, runtime, input and output properly shown. However, I didn’t specify a detail in the exact manner that the instructors wanted in the explanation. (Even though I diagrammed such and explained in the reduction). If this wasn’t graded at what I think was way too harsh. I would have had a 70+ on this exam with no need to take the final.
+2
+u/wilderfield avatar
+wilderfield
+•
+4y ago
+Proud of you!
+
+2
+u/axbisme avatar
+axbisme
+•
+4y ago
+Thank you!
+1
+u/rkgt avatar
+rkgt
+•
+3y ago
+Just the right piece of advise I needed. Thanks so much for putting this together. I've been preparing for GA for last 2 months and I was really getting worked up if I'd be able to clear this one.
+
+Your comments helped me to calm myself down and enter the course with a positive mindset .. Thanks again !
+
+2
+u/axbisme avatar
+axbisme
+•
+3y ago
+Glad I could help. You’ve got this! Finish strong.
+2
+thundercloudtemple
+•
+4y ago
+Could you elaborate a bit more on those opportunities that weren't available to you previously?
+
+I ask as a potential applicant.
+
+1
+u/axbisme avatar
+axbisme
+•
+4y ago
+So since I started the program almost 5 years ago, I’ve seen an increase in salary of 60%. I’ve had interviews with companies that had previously ignored my resume. I’ve never pursued a job at a FAANG but I’ve been actively recruited by them. Every job that I have applied to, I’ve gotten an interview. I’m now working my personal dream job as a software engineering consultant for a global consulting firm while working from home and earning market salary. I know for a fact that this degree provided me the opportunity because my interviewer mentioned so. I also know that this degree will lead to an additional salary increase when performance reviews begin.
+
+The value of the degree for me is that there are no more closed doors. I had an undergrad degree from a state school, though reputable in the area, doesn’t hold a lot of weight when competing with elite academic institutions. I can apply to a FAANG or any other company and get that opportunity to sell myself. Earning the degree also boosted my self-confidence and I’m sure that helps as well.
+
+If you already have an undergrad degree from an elite institution, then the degree probably won’t be as valuable to you as it was to me. However, in my current company, leadership is encouraged to obtain a Masters degree so I’m already ahead of the curve there as well.
+12
+
+2 more replies
+emt139
+•
+4y ago
+Sounds tough and low overall grades should have the school look at the material/instructors.
+
+FANGG
+Tangential but what’s the second G for?
+
+11
+u/JUSANETENG avatar
+JUSANETENG
+OP
+•
+4y ago
+Typo
+4
+[deleted]
+•
+4y ago
+I second this. If this is common that students are failing then maybe this is an instructor problem. 🤷🏻
+9
+u/Ec0n0mlst avatar
+Ec0n0mlst
+•
+4y ago
+GA - this was long enough to be a full time job and claiming some resume space
+5
+
+1 more reply
+ u/flatsix__ avatar
+flatsix__
+•
+4y ago
+I'm in the class too. I'll throw in my credentials as well before reiterating my criticism on the course so that I'm not dismissed as an underachiever: I have a 3.8 GPA after 9 courses. I had a 4.0 GPA in my undergrad. I have almost a decade of industry experience. I'm currently employed as a staff engineer at now-public but former-unicorn. I have rejected multiple FAANG offers in my career. I led the core product of a startup from the seed round to a $50M valuation as both an IC and manager.
+
+I got a 58% on the first exam.
+
+There are so many fucking problems with this course but I'll focus on the big ones:
+The Final Curve: Historically, there is an end-of-semester curve in the form of adjusting the boundaries for letter grades. It is not disclosed how this curve is determined, but we can reasonably assume that it is based on grade distribution because the curve changes each semester and it is determined at the end of each semester. Here are my three observations on the curve:
+Honest students who are enrolled in the course for the first time are at a disadvantage when compared against their peers because:
+Repeat students already know the material and can play the bullshit grading game better. Now that I've taken the exam, I would do a better job at over-explaining details that I am certain of and remaining ambiguous about details that I'm uncertain of. I would put more effort into ensuring that I do not have cascading issues or missing edge cases. I would also know that the vast majority of the lecture content was irrelevant so that I could focus on the topics that are covered.
+Cheating on the exams is probably easy. I've never tried it (and I don't intend to), but I am unconvinced that the proctoring software and room scan would prevent someone from just pulling the course notes and homework solutions out of their pocket. They'll obviously score better, skewing the grade distribution. Additionally, students can easily share exam questions to other students within the same time window.
+The final curve happens every semester. This isn't a one-off event where a single semester is abnormally difficult. The exams are weighted heavily, graded harshly, and organized poorly. The other courses in OMSCS do not have this problem. This is unique.
+Students do not reasonably know where they stand throughout the semester. Most believe that they will finish with a final grade lower than they actually will. Since this is generally the last course that people take (or nearly the last), the stakes are high and this puts unnecessary pressure on the students. It's cruel.
+Grading: The grading on the homework and exams are pedantically harsh and wildly inconsistent.
+TAs grade differently. This is human nature and the individual TAs are not at fault. The problem is that there isn't even an attempt to mitigate their bias. The exams are extremely open ended, there is no rubric, and there aren't any bias mitigation techniques to normalize the grading techniques among the different TAs.
+Algorithms must be defined in words rather than psuedo-/code. We're stuck trying to define a formal process with informal grammar. TAs deduct points for terminology and wording in scenarios where it is blisteringly obvious what the student meant. English is my first language, I can't imagine how frustrating this must people for those with English as a second language.
+
+26
+u/JUSANETENG avatar
+JUSANETENG
+OP
+•
+4y ago
+Very well said. Especially excellent points about students retaking the course skewing the curve as well as cheaters.
+6
+u/blutitanium avatar
+blutitanium
+•
+4y ago
+The original class was Computability, Complexity, and Algorithms (CS6505) when I took it in Fall 2014. The grades were such that they needed to completely overhaul the class into Graduate Algorithms within two years. I wonder how the two classes would compare. I was so utterly thankful to have somehow scraped a B out of that class my first semester.
+11
+black_cow_space
+•
+4y ago
+There's only 1 secret to GA:
+
+Do the book problems every day for the whole semester till you get really good at them. Then you'll get an A. I almost got an A... I'm still a bit grumpy about that.
+
+ps. yes.. having everything based on tests is stressful.
+
+8
+u/West-Reception7398 avatar
+West-Reception7398
+•
+4y ago
+how did you verify your solutions were correct?
+
+2
+black_cow_space
+•
+4y ago
+I guess I couldn't in all cases if I remember correctly. But I did look at the examples the prof gave very carefully and try to categorize them as solutions.
+
+But you know when you don't have a good solution.
+1
+
+
+
+
+ u/BrokenPolyhedra avatar
+BrokenPolyhedra
+•
+4y ago
+Thanks for sharing and sorry to hear your bad experience, I’m gonna take it as my last course next semester and this info helps a lot
+
+15
+u/articarray avatar
+articarray
+•
+4y ago
+If you have time, you should self-study proof writing. Induction, proof-by-contradiction, direct proofs, etc. Although you won't be writing proofs, these concepts are necessary for correctness explanations and runtime analysis.
+8
+po-handz
+•
+4y ago
+same but my advisor isn't helping me enroll in the course...
+-1
+chad_brochill69
+•
+4y ago
+In it now as well. This my 8th course, and it is demoralizing. I understand the material really well, but the flippancy with the TAs extracts a heavy toll. I quit my job last semester to focus full time on finishing the program. Idk how someone could work full time while taking this course.
+
+14
+[deleted]
+•
+4y ago
+It’s pretty brutal.
+1
+LikeSuperCoolCat
+•
+4y ago
+Gonna be real honest, this is making me really nervous
+7
+bunbun165
+•
+4y ago
+Always take care of yourself first - GA and OMSCS are not more important than you.
+They know it's the last class for the most of us, they know most of us need at least B, and its them who is giving the majority of the students C, and saying this is very irresponsible.
+
+---
+
+My GPA is 4.0, but I’m barely above average in this last class.
+
+When many graders must grade LOTS of students as uniformly as possible.
+
+Write as they want us to write. Don’t improvise.
+Use particular words (keywords) in the problem statements. … e.g.“because the array is DISCREET” to prove that your algorithm is correct instead of writing your own mathematical solution.
+Regrading causes even more stress and very time consuming because of its process and strictness.
+
+I got 10/20 for MCQ. I thought I got 90% correct because I felt they were easy. I haven’t reviewed the correct answers yet but they must have been very tricky questions.
+13
+[deleted]
+•
+4y ago
+The grading inconsistency is a major issue imo.
+
+This is amplified by the fact that exams are 75% of the grade. Most classes benefit from autograders, but GA has very little of that obviously.
+
+TA’s calibrate the grades as they go. The problem with this is that students graded earlier in the process have higher variability in their grades.
+
+Here is a very simple example: Say each TA has 50 exams to grade. Myself and the other TA’s grade 10 each then we calibrate (compare mean/median/standard deviation etc.). The goals is for TA’s to have similar distributions.
+
+If I’m a TA with a lower average than the other TA’s on the first 10 exams, I will likely feel as if I’m grading too harshly. And this might be true. Or it could be the case that those 10 exams really did deserve worse grades.
+
+The problem is that I now have pressure to conform to the grading distribution of the other TA’s. There’s now a likelihood that my remaining exams will be graded less harshly. I think any TA who claims to be completely immune to this is lying or lacks self awareness.
+
+There are a ton of human factors that affect grading and the example I gave is just one. Other major factors are the TA’s mood and energy levels at the time. A tired TA is more likely to miss something than a refreshed TA. Sometimes that benefits the student, other times it doesn’t.
+
+You can’t completely eliminate the human factor. But a stronger process could go a long way to reducing pain for both students and TA’s.
+
+One easy fix: every exam must be graded by at least 2 TA’s and they can’t see the other’s grade until after. If the grades are far enough apart, a 3rd TA takes a look. If the grades are very close, take the average.
+6
+u/Mikeavelli avatar
+Mikeavelli
+•
+4y ago
+Yup, I got a 3.8 in the program overall, getting an A in every class except the very first one I took (still getting back into the swing of doing schoolwork), and Graduate Algorithms. I dropped it the first time through, and was glad to get a B my second time through.
+
+It's not an easy class. I still have a screenshot of the after-midterm feeling poll, where only 24% of students selected "fetal position."
+10
+
+
+
+
+Walmart-Joe
+•
+4y ago
+Definitely an all-or-nothing class. Stressful af. Most of the workload is personal study time, which is why people's success rates vary so widely.
+9
+u/comps2 avatar
+comps2
+•
+4y ago
+I took the course last semester and can agree with your sentiment. I knew how to do everything on the exams, but would constantly get 15-20% deductions due to missing formatting and such. I got an A without taking the final in the end yet I was still heavily stressed out the entire semester.
+
+Glad to be done and good luck! Our curve was 3% if that knowledge helps.
+
+6
+u/flatsix__ avatar
+flatsix__
+•
+4y ago
+Was that a 3% curve on the letter grade cutoffs or what? I’ve heard a lot on conflicting information on how steep the curve is
+
+2
+u/BlackDiablos avatar
+BlackDiablos
+•
+4y ago
+Spring 2022:
+A = [82, 100]
+B = [67, 82)
+C = [47, 67)
+D = [37, 47)
+F = [0, 37)
+5
+u/wilderfield avatar
+wilderfield
+•
+4y ago
+This class is very poorly designed.
+
+It is a shame too, because algorithms are a very interesting subject.
+
+Algorithms are at the heart of modern society, and have critical importance.
+
+Yet OMSCS, has managed to ruin the experience of learning about them for me.
+3
+[deleted]
+•
+4y ago
+Starting this semester, they won't lower the 70% cutoff for a B.
+3
+u/myboyscallmeash avatar
+myboyscallmeash
+•
+4y ago
+This class was my last class and only B in the whole program. It definitely requires you to memorize hella stuff to do well
+
+2
+u/Traditional-Algae794 avatar
+Traditional-Algae794
+•
+4y ago
+I'm 60 and my memory is shot. It's human nature.
+
+Even so, I have a 4.0 for the other 9 classes.
+
+The thought that the 5 years I've dedicated to this program hinges on 3 exams that require pure memorization is beyond disgusting. I don't see why a single handwritten notes sheet (as done sometimes in other classes) isn't allowed.
+
+No one needs memory anymore-- we all have more powerful computers and search engines in our pockets the an entire library could have provided in days gone by.
+
+This isn't learning. This is a crucible.
+
+Something really needs to be done about this class.
+
+Or grant the option of a proper capstone project. I would have welcomed the opportunity to develop something for a charity or non profit.
+4
+[deleted]
+•
+4y ago
+Thanks for sharing this. Hope things get better for you.
+
+I'm starting next spring (got my BS in CS over 10 years ago, 15 years writing software professionally), and my plan is to start with this class. It matches my interests. I'm currently working through the book and the video lectures. Been keeping up well and things are clicking. I'm way excited for this class.
+
+2
+josh2751
+•
+4y ago
+highly unlikely you will get into GA for your first class.
+
+12
+[deleted]
+•
+4y ago
+Is this because of limited seats?
+
+3
+josh2751
+•
+4y ago
+yes, and as a first semester student your time ticket will be much later than others.
+8
+Continue this thread
+ u/dyllll avatar
+dyllll
+•
+4y ago
+You really only get in if it’s your last class.
+4
+[deleted]
+•
+4y ago
+FWIW, I don’t think they can afford to fail half of you, logistically. They can barely meet the demand for seats of students with one class left to graduate. The curve will probably have to be adjusted from what they published. Or they’ll get read the riot act and grade less sadistically in the next two exams. Sounds like the TAs are doing a poor job, being more pedantic than usual, phrasing multiple choice questions ambiguously where there’s no right answer or multiple right answers.
+
+I’m not even in the course and something about that post you linked just really rubs me the wrong way. But if I ignore the indifferent tone, or whatever it is I can’t quite place that bothers me, I think that’s what they’re trying to say. We can’t promise you a B but unless you have a good reason, stick it out and hope you’re saved by the curve.
+
+Furthermore, a curve necessitates a tail end that has to retake. If you stick it out and miss the cutoff, you save someone else’s graduation date, and that’s one less person you’re competing with for scarce seats in the spring (doubt you can get into the fall section to retake, the waitlist is full). That’s kinda worth something, right?
+
+If you look here, roughly 90% of students get a B or better if they don’t withdraw from CS 6515: https://lite.gatech.edu/lite_script/dashboards/grade_distribution.html
+
+Summer term consistently has a larger relative proportion of Bs to As and a higher drop rate.
+
+1
+u/divark avatar
+divark
+•
+4y ago
+Since posting the Grade Distributions from LITE resets all of the filters, here's a picture of the grading statistics that is being referenced.
+3
+[deleted]
+•
+4y ago
+Comment deleted by user
+
+u/JUSANETENG avatar
+JUSANETENG
+OP
+•
+4y ago
+perfect scores on hw, quiz, projects gets you a good chunk of the way to 70%.
+The point of the post is to draw attention to course's flaws. The fact that people are suggesting to "retake it" is not addressing the root cause. You shouldn't have to brute force a course - collect the answers so that next time you can pass it. This is completely missing the point of education. But I think the intent of your response is a practical suggestion to complete the course given its current state, so thank you.
+
+14
+[deleted]
+•
+4y ago
+Comment deleted by user
+ 
+bunbun165
+•
+4y ago
+The class average for HW1-3 is 28/40 (=70%). The multiple choice in Exam 1 was 11/20 (=55%). They are not easy.
+1
+Continue this thread
+ u/flatsix__ avatar
+flatsix__
+•
+4y ago
+Do you think that it’s an acceptable that “just retake it 2 or 3” is a realistic suggestion? Would you say that about all of the other courses in OMSCS?
+
+1
+[deleted]
+Comment has been removed
+[deleted]
+•
+4y ago
+Comment deleted by user
+
+[deleted]
+•
+4y ago
+I think most people learn a great deal from the course. The issue is the grading structure induces stress like no other course does.
+
+There are probably a dozen courses that are around the same difficulty. But I don’t think any of them is stressing students out in the way that GA does.
+
+I passed the course and learned a lot but the overall experience was very negative. TA’s make frequent grading errors and its on the student to deal with it.
+
+There’s nothing like studying 40 hours for an exam, only to have points taken off because a TA:
+didn’t completely read your answer
+didn’t understand all or part of your solution
+some other human error

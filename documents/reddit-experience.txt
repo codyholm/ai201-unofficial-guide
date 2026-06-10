@@ -1,0 +1,484 @@
+r/OMSCS
+•
+7mo ago
+CarthagianDido
+
+How has been your experience in Grad Algorithms CS6515
+
+Since they revamped the class I’m curious how the experience has been for those currently taking it. I need it for ML specialization so I can graduate. I’m considering pairing it with Computer Law if I can get in. Please let me know!!
+33
+·
+72
+Comments Section
+u/reddituser48253 avatar
+reddituser48253
+•
+7mo ago
+I have a bachelors in math and cs
+
+I think this format seems pretty easy compared to the expectations I have been given coming into the course. Granted, I am having to take a makeup exam for exam 1 since I couldn’t take it, and have not gotten my exam 2 grade back yet. But I really don’t see it going that poorly.
+
+Having taken computer law, it’s an easy class. Probably not many better options to double up with GA, but not sure I would recommend doubling up with GA at all
+
+Edit: got a 19/60 on exam 2 so…
+
+18
+baguettecoder
+•
+7mo ago
+Well that edit is plot twist... Now I'm scared lol
+
+10
+u/reddituser48253 avatar
+reddituser48253
+•
+7mo ago
+It is generally expected that your first exam in this course goes poorly. Now I just have to buckle up and get it done for exam 3 and makeup for 1 to graduate lol
+
+3
+baguettecoder
+•
+7mo ago
+Did most of your point deductions come from formatting or the actual implementations? I guess I'm just surprised because you clearly have the background and also seemed confident in what you did.
+1
+Continue this thread
+ u/reddituser48253 avatar
+reddituser48253
+•
+4mo ago
+As an update to anyone seeing this later: busted my ass for the last two exams, and passed the course (and graduated!)
+6
+CarthagianDido
+OP
+•
+7mo ago
+Re: pairing, I work 60hrs / week … guess bad idea?
+
+1
+u/reddituser48253 avatar
+reddituser48253
+•
+7mo ago
+Sounds like an awful idea to me, regardless of OMSCS. But if you’re trying to do ML, that class will be worse than GA
+
+12
+CarthagianDido
+OP
+•
+7mo ago
+I finished everything related to ML track with A’s, I just need GA now lol
+
+2
+u/reddituser48253 avatar
+reddituser48253
+•
+7mo ago
+Well done. If you were able to do ML with a 60 hour work week and get an A, you’ll be fine in GA. Pairing it with computer law may be a pain but it is doable. Won’t leave you with any free time though lol
+3
+
+6 more replies
+theorizable
+•
+7mo ago
+It's a good course. I wouldn't listen too much to the people who hate it. This is my second time taking it and I liked it the first time as well.
+
+You will absolutely learn the algorithms and how to apply them or you will not pass; be forewarned on that. I've skirted other classes and BS'ed my way through, this is not that kind of class. You either know the algorithms or you don't. By knowing the algorithms, I mean you have practiced with them, you can communicate about them in plain english, and you understand everything you need to consider about the algorithms before you apply them. Each test you need to know around 5-10 different algorithms/techniques and their runtimes. Simple mistakes will dock you a couple points, but a fundamental lack of understanding will dock you a huge % of the exam grade.
+
+The people complaining about the class are usually annoyed at the huge penalty for their own mistake BUT the class is forgiving. You'll see videos of people reviewing it saying they thought there would be no way for them to pass after one exam, but they get through and even get an A. If you don't get through, it is on you. The graders have been extremely fair in my opinion. I didn't deserve to pass the first time I took the class because of a mix of stupid mistakes and lack of trying.
+
+11
+CarthagianDido
+OP
+•
+7mo ago
+Did you take it solo or or you paired it?
+
+1
+theorizable
+•
+7mo ago
+Completely solo.
+1
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+This. I think people sometimes brute force solutions with gradescope in other classes with only a fuzzy understanding. In this class you will fail if you don’t KNOW the material. The people in my group that didn’t do well didn’t learn it well enough. And a few that only did ok were overconfident and didn’t read the instructions but got by.
+6
+macswizzle
+•
+7mo ago
+It’s pretty sad that “you have to know the material to pass the class” isn’t true for all the classes in the program. I think GA is a little far along the curve where even understanding it you can really screw yourself with small mistakes, but there are so many classes in the program where you can ace the course without having learned much of anything.
+
+1
+theorizable
+•
+7mo ago
+I don't mean to say that I didn't put effort into those courses. It was more just like, you would know when you're done with a project because you would get all your test cases passing in gradescope. You could spend like a day or 2 on a project just by testing different inputs until you pass. Some of the projects took a significant amount of time and by the end of it you realize it would've been faster to just learn the material.
+
+But for GA, you can't do that. You need to know beforehand that you should ALWAYS just learn the material, not bump your way through the class.
+
+1
+macswizzle
+•
+7mo ago
+Oh I wasn’t saying that’s what you did, I’m saying the fact it’s achievable is disappointing
+
+1
+theorizable
+•
+7mo ago
+No offense taken, I agree.
+1
+LSchnerg
+•
+7mo ago
+It’s a lot is work and it’s also a good class. Joves is great, and there are many other TAs who are very helpful. Dr. Brito is a little annoying with his, “I don’t know, I might be telling you the wrong thing. It’s best to ask the TAs,” but it’s nice that he holds weekly office hours.
+
+A con is there’s a TA who I think is unnecessarily sassy/condescending. I think it’s just his personality but he comes off as hating his job and thinking he’s teaching a bunch of idiots. The other con is despite the lectures being objectively good, Dr. Vigoda’s vocal fry and deep voice lull me to sleep.
+
+Edit: word choice
+
+38
+u/bullishshorts avatar
+bullishshorts
+•
+7mo ago
+22 upvotes agreeing and we still don't have a name
+
+2
+macswizzle
+•
+7mo ago
+Take the class and it’ll become readily apparent within one week
+11
+
+1 more reply
+ 
+1 more reply
+ u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+Good course. Challenging but very doable. You have to put in the time and have the pre reqs. A lot of people don’t like the theory, don’t apply themself, and then say the class is bad bc they passed ML, AOS, etc and now failed this so it must be the class.
+
+It is also very stressful with the exam format vs grade scope submissions. All that plus it being required to graduate and usually the last class and everyone’s burnt out is a perfect storm and why the class gets eviscerated.
+
+It’s a good class though. Compare to UT MSCSO and you see similar complaints. Compare to MIT problem sets and material and you’ll see it’s on par.
+
+26
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+Don’t pair it with anything. Just focus completely and do your best. A study group can help too.
+
+9
+StephanOMeter
+•
+6mo ago
+Keep in your head the entire semester
+
+I won't learn anything real world for my real job in this class regarding algorithms
+what's most important is memorize everything especially every part of speech, the TA demands or you'll flunk every exam
+real application means nothing. Holds no value
+they celebrate sadistic behavior and try very hard to cover you with it
+Don't let them🙌
+1
+Praying_Lotus
+•
+7mo ago
+What pre-reqs? Or which ones quirk you suggest would be good beforehandv
+
+1
+u/aja_c avatar
+aja_c
+•
+7mo ago
+Pre reqs - see the course page. https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms
+
+People take the class (and pass) without the pre req knowledge all the time, but it is much harder and more work that way.
+
+7
+Praying_Lotus
+•
+7mo ago
+I see there’s a seminar that’ll cover a lot of the pre-req, so I may roll with that one semester when taking an easier course
+1
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+The DS&A mooc from Gatech is the obvious answer. I think they also offer it as a seminar, and there’s also the language of proofs seminar was supposed to help address pre reqs. Honestly I did Problem Solving with Algorithms and Data Structures using Python cover to cover with all the exercises and it’s served me well (maybe a little lacking on some graph topics but close enough that you can fill in the gaps). I’ve done leetcode/neetcode 150 as well and it can be a nice addition but a basic book/class is a better base.
+
+4
+Praying_Lotus
+•
+7mo ago
+Ahhh okay. I actually did the DSA mooc before I started this program (this is my first semester) and that definitely helped fill in some knowledge gaps, as I come from a physics background in undergrad, but anything else to supplement is also always good in my opinion
+
+3
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+You’re good. If you have the math from physics and the DSA mooc just take the class and lock in.
+2
+Continue this thread
+ u/the_latebloomer avatar
+the_latebloomer
+•
+7mo ago
+Did you do the Gatech DS&A mooc and the python book?
+
+1
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+I didn’t finish the mooc because I felt there was so much overlap
+1
+Continue this thread
+sstlaws
+•
+7mo ago
+Which class in UT mscso is similar to this one ?
+
+1
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+Algorithms
+
+2
+u/awp_throwaway avatar
+awp_throwaway
+•
+7mo ago
+course title checks out
+6
+[deleted]
+•
+7mo ago
+It's a useful class, and the content is relevant, the grading and exam structure is kind of unfair. For example, they claim they give better grades better/faster algorithms, but ultimately, if it's suboptimal, but beating brute force, they'll grade it as if it is brute force, so this grading statement is fairly false. The only time you get any significant partial credit is if you get the question right and then they will try to nickel and dime you on little things. Since the Exams are graded in this manner and are worth 90% of your grade, it can cause a pressure cooker situation, because even if you do all the homework, and all of the practice problems, if you slip up only a couple of times under a high pressure situation in the test, you will not pass. Overall, the TAs are alright, kind of assholes sometimes, and generally won't actually answer any of your questions, but what do you get what you pay for, so that doesn't really bother me personally. Overall, I would try to avoid the class, just because I think the exam structure is insane, and unnecessarily consequential.
+4
+u/meme_shitposter avatar
+meme_shitposter
+•
+7mo ago
+I’m with the other commenters, I’m in the class right now and I was expecting it to feel unfair based on the way other people have talked about it. I’m not sure how different it was in previous iterations but I think the class is extremely fair.
+
+Every expectation is very clear, and if you do the work to watch all the lectures, do all the practice problems, and watch most office hours, you should feel pretty prepared taking the test. I don’t even think the tests are the hardest in the program, I found HPC had much harder tests.
+
+I think pairing it with another class depends a lot on your background and life. I was pretty solid at algorithms in undergrad (plus my undergrad had a really hard algos class) and don’t have any kids or major commitments so I paired it with GPU and Digital marketing which hasn’t been as bad as I expected tbh.
+
+7
+u/Sn00py_lark avatar
+Sn00py_lark
+•
+7mo ago
+Yeah if you understand the problems assigned, you will be able to pass exams unless you just have a bad day or get unlucky not understanding it. When I took it things were just slight variations of stuff they told you how to solve.
+4
+Prestigious-Tank1452
+•
+7mo ago
+Thinking about enrolling in OMSCS, but the TA-driven model gives me pause, my past experiences were uneven (response times, grading consistency, tone). How present are the professors in CS6515, and how do you escalate when a TA isn’t helpful?
+
+2
+u/aja_c avatar
+aja_c
+•
+7mo ago
+The professor holds weekly office hours, so he's accessible at a minimum there. 
+
+TAs will be different across classes, but I think one unique feature with OMSCS is that most TAs (across the board) are from OMSCS (and not on campus), so they reflect the demographic of OMSCS students. That means a ton of different backgrounds, and also a deep familiarity with the experience of being an online student. It also means that the TAs genuinely want to be TAs for whatever reasons, vs. on campus students that have to have a TA role (or something similar) in order to get tuition breaks to pay for their own classes. Another major difference is that many OMSCS TAs are actually alum and have been doing it for a long time (this is especially true for head TAs). That can be a double edged sword, but it does mean that a lot of OMSCS TAs are very experienced at being TAs. 
+4
+[deleted]
+•
+7mo ago
+This is a very good question IMO. My personal take is that I have definitely learned stuff, but having the TA structure can often make classes excessively unorganized and painful. But some classes are alright. I think, if you have the ability, ie. A great financial situation, enough time on your hands, and a good background in CS, I would do a more traditional route. I feel like my undergrad in person was much more effective than this program.
+2
+u/dont-be-a-dildo avatar
+dont-be-a-dildo
+•
+7mo ago
+Interesting content but terrible course, likely due to all of your grade coming from the exams.
+
+The homework problems (optional and not graded) and the (again optional) practice problems from the book simply don't correlate in any significant way to the types of problems you'd see on the exam. You need to watch and pay attention to every minute of office hours, lest they sneak in an algorithmic trick in there that you're now responsible for remembering on the exam. (You likely won't have enough time on your exam to derive this trick yourself.)
+
+The number of times I have watched a problem solved in office hours just to hear Joves say something like "the wording on this problem is terrible, don't worry, we won't give you a problem like this on the exam" or "we wouldn't expect you to figure this out on your own... but now that we've covered this in office hours it's fair game for the exam" drives me up the wall. What's the point of providing practice problems to help us prepare for exams if they aren't what we'd actually see on the exam? Or that we have to remember this trick discussed for roughly 10 minutes of the weekly 4-hour long office hours session?
+
+And they'll try to trick you up on the exams with poor and ambiguous wording, especially on the multiple choice segment. And you'd better remember each and every algorithmic trick because each free response has one correct answer. If you don't get there, you have lost at least 8 of the 20 points on that problem.
+
+The TAs and instructors don't respect their own policies for worst-case runtime on exams and arbitrarily take away extra points from one solution, even though it has the exact same runtime as another solution that lost fewer points. The only difference was that the second solution was using the algorithmic trick they were hoping to see.
+
+It's about as bad as I had read it would be, sarcastic TA responses and all. I'm right on the edge between a B and a C and I have hated every minute of this term.
+
+Actually, in writing this I remembered something that's pissed me off even more. One of the practice problems, 4.21, Joves gave us the answer, said it was a very difficult problem, and that he didn't understand the math himself. The only reason he got the answer when it was assigned to him was because he was in a study group with a math major. THEN WHY GIVE IT TO US AS A PRACTICE PROBLEM IF IT'S SOMETHING YOU DON'T UNDERSTAND AND THAT YOU NEED A MATH MAJOR TO FIGURE OUT?!
+
+8
+u/meme_shitposter avatar
+meme_shitposter
+•
+7mo ago
+How do you think the practice problems don’t correlate? Lol
+
+On exam 1 one of the algorithm design questions was directly from one of the homeworks, and exam 2’s questions were honestly easier than the homeworks.
+
+I also don’t know why you’re saying optional for the homework and practice problems as if that’s a bad thing, they’re very explicit that you should be doing them and the students who do the homeworks perform better than those who don’t.
+
+I have no idea what “algorithmic tricks” you could even be talking about. The practice problems have some tricky manipulations you have to do, but the two exams so far haven’t required any insane manipulations like that 4.21 problem you’re talking about.
+
+Joves does say for some practice problems that we wouldn’t be given them on an exam, but that’s maybe like 3/30 practice questions?
+
+Name one exam question that required a trick only mentioned in a small part of office hours. You can’t! I don’t even watch most of them and I haven’t felt clueless with any exam question, practice and homework is all you need, OH is just a nice supplement.
+
+7
+u/dont-be-a-dildo avatar
+dont-be-a-dildo
+•
+7mo ago
+On exam 1 one of the algorithm design questions was directly from one of the homeworks
+It was most certainly not directly from the homework aside from the character name and the activity they were performing.
+
+and exam 2’s questions were honestly easier than the homeworks.
+Question 2, perhaps. Question 1, absolutely not. You may have personally found it easier but the class did not. but this is what I'm saying. The homework questions, of which there is one graded problem per week, are significantly different from what you'd see on an exam. That's because we get a week to complete it and we can discuss with others and AI. They're significantly harder, and less useful for the exam. The circumstances in which the questions are provided and answered are too different. The other homework questions are problems from the book where no official, class-accepted answer is provided, unless it is covered in office hours. The ones covered in office hours still have the problems I mentioned earlier
+
+Name one exam question that required a trick only mentioned in a small part of office hours.
+Question 1 of Exam 2. Obviously I can't say what the trick was. Some people were able to figure it out by themselves, which was covered in office hours. Many people, including myself who did review all office hours, were not able to remember or derive it within the exam session.
+
+3
+LongjumpingChair6067
+•
+7mo ago
+Question 1 on exam 2 definitely killed the hope to graduate for many.
+3
+u/aja_c avatar
+aja_c
+•
+7mo ago
+Just a reminder to everyone to be careful about discussing content from exams in public. 
+3
+u/meme_shitposter avatar
+meme_shitposter
+•
+7mo ago
+My mistake it wasn’t the exact question on exam 1, it was an easier variant of a similar DP problem.
+
+Question 1 didn’t require a trick, it was applying a known algorithm and understanding how to use its output for the condition they were looking for. Not trivial, but not out of scope.
+
+I don’t think the class is perfect but it’s also not unfair like you’re implying. I think more exams would be better to place less emphasis on just a few questions deciding a large part of your grade for example. I think it’s a good thing the practice is harder than the exam, you get to see a larger scope of algorithms problems, and you feel extra prepared when you see the test questions are easier.
+
+I just don’t see how you can say the practice doesn’t match the exams, HW5 had a graded problem that used the same algorithm and required a similar understanding of its output as Q1 of Exam 2.
+2
+u/lefan94 avatar
+lefan94
+•
+7mo ago
+> The homework problems (optional and not graded) and the (again optional) practice problems from the book simply don't correlate in any significant way to the types of problems you'd see on the exam.
+
+I want to jump in and say that this is completely untrue.
+1
+u/iustusflorebit avatar
+iustusflorebit
+•
+7mo ago
+Great course, very fair. There is a lot of stress because the exams are your whole grade basically. I think many struggle because the class requires you to work diligently on things that don’t impact your grade (homeworks and practice problems) if you want to do well on exams. 
+
+The class is extremely well run. TAs respond fast, lots of good discussions on Ed as well. 
+
+Don’t be scared of the course. If you put in the work you can pass with a B no problem. 
+3
+macswizzle
+•
+7mo ago
+A lot of bad takes in these comments, crying about “practice problems being irrelevant to exams” or “why assign problems that are not going to be relevant to exams”. It’s because the course staff wants you to learn the material, not just memorize solutions. They provide a toolbox which you need to familiarize yourself with and practice using. Then they test your ability to apply it to previously seen problem types with variations that require understanding, not memorization.
+
+The class does an excellent job of telling you what problem types could be on the exam, reinforces (to imo an obnoxious, hand hold-y degree) the expected way to answer the problems, then gives you tons of opportunities to interact with course staff through office hours if you have any questions.
+
+Every test problem has been some variant of homework, practice problems, and extra problems provided in Ed posts by the TAs. Every one of those problems are reviewed in office hours through no small effort from Joves. There is no “heroic effort” required to pass the course. Just do the work you’re told to do, even if it is not graded, and a B is fully achievable.
+
+Edit: Only valid complaints are {specific TA whose name everyone knows} being a gigantic douchebag. I 100% agree with that and don’t think he should be in a position that requires him to interact with students. Either he hates his job and they chain him to a desk until he responds to a certain number of student questions, or he enjoys wasting people’s time and sending students down pointless rabbit holes.
+2
+u/nuclearmeltdown2015 avatar
+nuclearmeltdown2015
+•
+7mo ago
+I took the class in summer. I passed but it's a bad class. Just cramming algorithms and remembering how to answer free response the way the class wants. I already forgot most of the stuff I learned. Literally forgot half of it already. I can't recall the recurrence for a palindrome, I forgot how to do a reduction for vertex, and i only recall divide and conquer because I knew it well before I even went in.
+
+The class doesn't teach you anything at all, but it's required so good luck. Suck it up and get through it. Don't go in with high expectations. It will be hard because they don't give much guidance, just throw a bunch of practice problems and reading assignments and you're on your own flying blind not knowing if you're right or wrong. The staff are slow with feedback giving back HW maybe a day before the exam, and put all grades on do or die exams, so that's why it's hard and the stress to cram will make you forget everything you learned for the next exam. It's just endless churn and burns you out if you don't manage your time well.
+
+It stinks to study for 40+ hours in a week for it all to culminate in a single exam where you forget the step or big O for an algorithm because you can't carry in any notes, can't look anything up, and need to just straight up remember all the material and rules, so if you forget a single step or rule you lose half your points and suddenly you're looking at potentially getting a C in a mandatory class with no curve.
+
+Awful structure. Nothing about this course is meant to be about learning, it's just a memory game of constantly grilling yourself with notes and flashcards to try to retain a Ton of information long enough to take a test which will provide you no value in the future or ever really come up as a topic again. One of the (unnecessarily) hardest and most disappointing classes I ever took in this program and I would never recommend it, but good luck.
+
+1
+u/dont-be-a-dildo avatar
+dont-be-a-dildo
+•
+7mo ago
+Just cramming algorithms and remembering how to answer free response the way the class wants.
+god forbid you misremember slightly how one of the 10 black box algorithms work, that's a -12 on a 20 point question worth 1/3 of the exam which is also worth 1/3 your grade.
+
+the class is an exercise in madness.
+10
+Bearded_Beeph
+•
+7mo ago
+I’m thinking of taking this in the spring for my second class, if I can get in. Seems a lot of people wait until the end to take it but I’d rather get it out of the way.
+
+1
+u/dont-be-a-dildo avatar
+dont-be-a-dildo
+•
+7mo ago
+People generally wait to the end to get in because they're forced to. It's a bottleneck due to being a required course for almost all specializations. Some people are able to get in early on FFAF or via waitlist, but there's simply not enough spaces for everyone to take it as early as their second class if they want to.
+
+And it really should be taken early, that way people don't end up taking it as their 9th or 10th class just to find what a load of rubbish the class is and that they need to change their specialization.
+5
+u/EvanEvan11 avatar
+EvanEvan11
+•
+7mo ago
+I completely agree with the commenter below. Although its out of your control, if you decide not going the AI or HCI spec, try as hard as possible to get in that class as early as possible. I'm extremely lucky and currently enrolled in GA on my first semester. It will open up during the last couple days of FFAF multiple times (during the late hours); some student will smarten up and not bundle it with another hard class. I got in at 2AM the last day of FFAF.
+
+I cannot imagine the stress of relying on GA to graduate or wasting classes due to a specialization switch.
+
+0
+Bearded_Beeph
+•
+7mo ago
+I am going AI, just seems GA would teach me more then 6300 so was thinking of taking it instead.
+
+Sounds unlikely I’ll get in. My work tuition reimbursement program requires me to have all paperwork signed, submitted, and approved before class starts. At least for my first term, there just wasn’t enough business days to do that between FFA and first day.
+2
+u/awp_throwaway avatar
+awp_throwaway
+•
+7mo ago
+More of a peripheral concern than a specific addressing of the larger question, but on the particular point of "revamp," the content and format of the course in itself hasn't really fundamentally changed much since course inception, as far as I'm aware. It still uses the original lectures (from Prof Vigoda, who has since left for UCSF as of 2-3 years ago or so), and the same textbook, on which both the lectures and practice problems are generally based (Dasgupta et al. "Algorithms" 1st edition).
+
+The main notable "changes" in the course's structure have comprised moving towards a heavier exam weighting (90% total, with the remaining 10% covered by quizzes). Last year (2024) they had been experimenting more with the weightings (with homeworks still counting formally towards the overall grade at that point, but at varying fractions relative to exam weighting semester-over-semester), but after some controversy along the way (still a pinned post on this subreddit, hence easy to dig back up, lol), as of Spring 2025 (and seemingly onwards through present), they have made the homeworks optional/ungraded in the sense of contributing to the overall grade, but still eligible for submission for TA "grading" on the "assigned" problem to get feedback (and generally recommended to submit accordingly on that basis).
+
+I'm only specifically familiar with the Spring 2025 rollout when I personally took it, but supposedly they've also made some tweaks around weighting the exams towards the total 90% based on better vs. worse grades on those, i.e., heavier weighting towards better exam performances across the three (that is speculative on my part, though, perhaps others can clarify that with better familiarity; in Spring 2025 specifically, it was a straight through 30% apiece across the three exams to give the total 3*30 = 90%, i.e., equally weighted).
+
+All that said, it does seem that a lot of the aforementioned controversy has been mollified by these more recent formatting/weighting changes, making the homeworks more of "freebies" (but opportunities to "get in practice swings" without serious repercussions), while making the exams more consequential towards the overall grade. Anecdotally, prior to Spring 2025, it was much more common to see posts here complaining/venting about the course practically every semester (it was essentially a trope here to bust out the 🍿once GA or corresponding post tag made an appearance), but notably less so ever since then.
+
+1
+u/LevelTrouble8292 avatar
+LevelTrouble8292
+•
+7mo ago
+In re: exam grades, yes. Highest graded exam is 35%, second is 30%, third is 25%
+
+1
+u/awp_throwaway avatar
+awp_throwaway
+•
+7mo ago
+Thanks for the confirmation/clarification! I had heard something along those lines for Summer, but only in passing, so couldn't state definitively...
+
+That sounds like a nice tweak, honestly, I wouldn't be surprised if it helped out at least a (non-trivial) few who might've landed right on the margin/border otherwise. Along those lines, I think it's fair to state that the staff have worked in good faith to reduce friction in the course logistics, so that is noteworthy here, too.
+
+EDIT: Per the respective Syllabi, seems like the 35/30/25% exam weightings have been effective going forward from Summer 2025 onwards (and presumably into the future, at least based on n = 2 to date).

@@ -1,0 +1,34 @@
+Tips to get an A in OMSCS Graduate Algorithms
+
+Dec 17, 2022
+
+I was pretty nervous going into Graduate Algorithms (CS6515) in OMSCS, but after many hours of studying and hard work, I ended up not only with an A in the class, but an A on all of the exams. I’ve thought through some things that worked well for me wanted to share them in case it helps any future students.
+
+Before I dive into the tips, I wanted to touch on the general structure of the class. The class is extremely exam focused — there are 3 exams and they count for ~75% of the final grade. There’s also an optional final exam, which can replace your lowest exam grade (only if it is better). There are weekly homework assignments, weekly 1-question “polls” that are essentially participation quizzes, and a few coding projects throughout the semester. There are also 2 weekly office hour sessions, one held by the professor and the other by the TAs.
+Tips
+Disclaimer: These are tips that I found helpful for me and I can’t guarantee that they’ll work for you.
+Use Joves’ notes
+Joves (pronounced “Joe-viz”) is one of the TAs and an OMSCS alum. He shares his notes on the topics as the semester progresses and they’re great at summarizing lecture content and also include practice problems and solutions. I don’t recommend only using his notes, but they’re good for reinforcing concepts and looking things up when studying.
+Go to Office Hours or watch the recordings
+I’m specifically talking about the office hours with the TAs. They go over important lecture content and answer questions that students have. They also go over homework answers, polls, exam study materials, and exam answers. I started going to these after the first exam and felt a lot more prepared for exams 2 and 3.
+Note: I didn’t go to office hours with the instructor, so I can’t say how valuable those were. If you have the time, I’d recommend going to those too.
+Start the homework early and leverage the class forum for ideas
+When still learning the materials the homework questions can seem difficult, so I recommend starting them earlier in the week to start thinking of solutions. The class forum can also be used to share high level approaches (not the exact solutions), which are helpful for finding inspiration and getting unstuck.
+Do the practice problems
+The course content is difficult and can take time for things to start clicking. The practice problems are a tremendous help to prepare you for the homework and exams. Some of the exam questions I had were very similar to the practice problems, so if you know how to solve that practice problem it’s easy to find a solution to the exam problem. If you’re not sure which practice problems to do, the homework assignments have recommended practice problems, and the wikidot for the page has good recommendations as well.
+Review comments on homework and exams
+The homework questions and the exams need the answers formatted in a specific way, and to include the right level of detail for explanations. So I suggest looking at feedback on homework to figure out if there are parts that you’re consistently losing points on and correcting those so you don’t lose points on the exam. It’s also good to check the feedback on the exams in case you need to take the final.
+Study on exam week
+One thing I did to prepare for an exam was watch any assigned lectures the previous week, this let me use the entire week for studying. This helped a ton and made me feel very prepared going into exams.
+Be prepared to take the final
+Getting an A on the 3 normal exams is difficult, and it’s perfectly normal to bomb one. In this scenario, the final is your friend since it will replace your lowest exam grade, so be prepared to take it.
+Bonus: Exam Week Study Routine
+I did this routine for Exams 2 and 3 and got very close to perfect scores on them.
+Monday: Make an outline of the materials covered in the exam, and the practice problems correlated to the materials
+Monday — Wednesday: Summarize the materials using existing lecture notes, Joves’ notes, and watching lectures again to clarify any things you’re not sure about
+Wednesday: Go to the TA office hours for exam prep
+Note: The date may change for your semester
+Thursday — Friday: Do all the practice problems, and re-do the homework questions
+Saturday Morning: Make a one page study guide that puts all of the super important notes on one page. This will reinforce all of the material and keep it fresh.
+Saturday Afternoon/Evening: Take the exam.
+Planning to take the exam on Saturday allows you an extra day of studying in case something comes up, or you’re not feeling ready.
